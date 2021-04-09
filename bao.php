@@ -15,13 +15,13 @@
 			</div>
         <div id="HCMUT" class="tabcontent">
         <h3>Bach Khoa</h3>
-        <img class = "featured-image" src= "logo/bachkhoa.png" style="width:400px;height:500px;" >
+        <img class = "featured-image" src= "bachkhoa.png" style="width:400px;height:500px;" >
         <p>Trường Đại học Bách khoa (Ho Chi Minh City University of Technology) là trường đại học chuyên ngành kỹ thuật đầu ngành tại Việt Nam, thành viên của hệ thống Đại học Quốc gia, được xếp vào nhóm đại học trọng điểm quốc gia Việt Nam. Tiền thân là Trung tâm Kỹ thuật Quốc gia được thành lập từ năm 1957, đến ngày 27/10/1976, Thủ tướng Phạm Văn Đồng ký Quyết định số 426/TTg đổi tên trường Đại học Kỹ thuật Phú Thọ thành trường Đại học Bách Khoa TP. Hồ Chí Minh.</p>
     </div>
     
     <div id="HCMUTE" class="tabcontent">
         <h3>Su Pham Ky Thuat</h3>
-        <img class = "featured-image"  src= "logo/supham.png" style="width:400px;height:500px;"  >
+        <img class = "featured-image"  src= "supham.png" style="width:400px;height:500px;"  >
         <p>Ho Chi Minh City University of Technology and Education (Abbreviation: HCMUTE, Vietnamese: Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh) is currently listed as one of the top 10 universities in Vietnam and also a member in the top group of Southeast Asia universities (basing on standard evaluation index).
 
         This is a public university located in Thủ Đức City, about 10 km north-east from downtown Ho Chi Minh City. This university offers bachelor's and associate degree to prospective lecturers in other technical institutions. The university also conducts technical research and vocational training, in addition to educational cooperation with foreign universities.</p>
@@ -29,13 +29,13 @@
 
     <div id="FPT" class="tabcontent">
         <h3>FPT</h3>
-        <img class = "featured-image" src= "logo/fpt.png" style="width:700px;height:500px;" >
+        <img class = "featured-image" src= "fpt.png" style="width:700px;height:500px;" >
         <p>Trường Đại học FPT là một cơ sở kinh doanh dịch vụ giáo dục tại được thành lập ngày 8/9/2006 theo Quyết định số 208/2006/QĐ-TTg của Thủ tướng Chính phủ,[1] do Tập đoàn FPT đầu tư 100% vốn, trở thành trường đại học đầu tiên do một doanh nghiệp thành lập tại Việt Nam</p>
     </div>
 
     <div id="RMIT" class="tabcontent">
         <h3>RMIT</h3>
-        <img class = "featured-image" src= "logo/rmit.png" style="width:600px;height:500px;" >
+        <img class = "featured-image" src= "rmit.png" style="width:600px;height:500px;" >
         <p>RMIT University Vietnam (informally RMIT Vietnam or RMIT) is the Vietnamese branch of the Australian research university the Royal Melbourne Institute of Technology, known in Australia as RMIT University. It has three campuses located in Ho Chi Minh City, Hanoi and Danang.
 
             RMIT was the first completely foreign-owned university granted permission to operate in Vietnam. Since its establishment in 2000, it has won 15 Golden Dragon Awards from the Vietnamese Government for excellence in education.</p>
@@ -43,7 +43,7 @@
 
     <div id="BTEC" class="tabcontent">
         <h3>BTEC</h3>
-        <img class = "featured-image" src= "logo/BTEC.png" style="width:600px;height:500px;" >
+        <img class = "featured-image" src= "BTEC.png" style="width:600px;height:500px;" >
         <p>Cao Đẳng quốc tế FPT liên lết cùng vương quốc Anh</p>
     </div>
 
