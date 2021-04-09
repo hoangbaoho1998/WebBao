@@ -7,11 +7,11 @@
 <body>
     <div id="top-bar" align="center">Death List</div>
 			<div align="center" class="tab">
-  				<button class="tablinks" onclick="openCity(event, 'HCMUT')">HCMUT</button>
-  				<button class="tablinks" onclick="openCity(event, 'HCMUTE')">HCMUTE</button>
-  				<button class="tablinks" onclick="openCity(event, 'FPT')">FPT</button>
-                <button class="tablinks" onclick="openCity(event, 'RMIT')">RMIT</button>
-                <button class="tablinks" onclick="openCity(event, 'BTEC')">BTEC</button>
+  			<button class="tablinks" onclick="openCity(event, 'HCMUT')">HCMUT</button>
+  			<button class="tablinks" onclick="openCity(event, 'HCMUTE')">HCMUTE</button>
+  			<button class="tablinks" onclick="openCity(event, 'FPT')">FPT</button>
+            <button class="tablinks" onclick="openCity(event, 'RMIT')">RMIT</button>
+            <button class="tablinks" onclick="openCity(event, 'BTEC')">BTEC</button>
 			</div>
     <div id="HCMUT" class="tabcontent">
         <h3>Bach Khoa</h3>
@@ -24,7 +24,7 @@
         <img class = "featured-image"  src= "logo/supham.png" style="width:400px;height:500px;"  >
         <p>Ho Chi Minh City University of Technology and Education (Abbreviation: HCMUTE, Vietnamese: Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh) is currently listed as one of the top 10 universities in Vietnam and also a member in the top group of Southeast Asia universities (basing on standard evaluation index).
 
-            This is a public university located in Thủ Đức City, about 10 km north-east from downtown Ho Chi Minh City. This university offers bachelor's and associate degree to prospective lecturers in other technical institutions. The university also conducts technical research and vocational training, in addition to educational cooperation with foreign universities.</p>
+        This is a public university located in Thủ Đức City, about 10 km north-east from downtown Ho Chi Minh City. This university offers bachelor's and associate degree to prospective lecturers in other technical institutions. The university also conducts technical research and vocational training, in addition to educational cooperation with foreign universities.</p>
     </div>
 
     <div id="FPT" class="tabcontent">
