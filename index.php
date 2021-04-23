@@ -83,11 +83,29 @@
   evt.currentTarget.className += " active";
 }
     </script>
-    <?php
-
-
-
+<?php
     
-     ?>
+      $sql =<<<EOF
+      INSERT INTO LL 
+      VALUES (1, 'BACH KHOA');
+      INSERT INTO LL
+      VALUES (2, 'SU PHAM KT');
+      INSERT INTO LL
+      VALUES (3, 'FPT');
+      INSERT INTO LL
+      VALUES (4, 'RMIT');
+      INSERT INTO LL
+      VALUES (5, 'BTEC');
+EOF;
+
+   $ret = pg_query($db, $sql);
+   if(!$ret) {
+      echo pg_last_error($db);
+   } else {
+      echo "Records created successfully\n";
+   }
+   pg_close($db);
+    
+    ?>
 </body>
 </html>
