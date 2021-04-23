@@ -86,15 +86,15 @@
 <?php
     
       $sql =<<<EOF
-      INSERT INTO LL 
+      INSERT INTO ll
       VALUES (1, 'BACH KHOA');
-      INSERT INTO LL
+      INSERT INTO ll
       VALUES (2, 'SU PHAM KT');
-      INSERT INTO LL
+      INSERT INTO ll
       VALUES (3, 'FPT');
-      INSERT INTO LL
+      INSERT INTO ll
       VALUES (4, 'RMIT');
-      INSERT INTO LL
+      INSERT INTO ll
       VALUES (5, 'BTEC');
 EOF;
 
