@@ -122,7 +122,7 @@ EOF;
    pg_close($db);
     
     ?>
-  /*
+/*
     <?php
         $sql =<<<EOF
         SELECT * from Menu;
