@@ -84,18 +84,33 @@
 }
     </script>
 <?php
+      $sql =<<<EOF
+         CREATE TABLE Menu
+         (ID INT PRIMARY KEY     NOT NULL,
+     	 NAME           TEXT    NOT NULL);
+   EOF;
+      $ret = pg_query($db, $sql);
+      if(!$ret) {
+      	 echo pg_last_error($db);
+      } else {
+      	 echo "Table created successfully\n";
+      }
+      pg_close($db);
+    ?>
+    
+    <?php
     
       $sql =<<<EOF
-      INSERT INTO menu
-      VALUES (1, 'BACH KHOA');
-      INSERT INTO menu
-      VALUES (2, 'SU PHAM KT');
-      INSERT INTO menu
-      VALUES (3, 'FPT');
-      INSERT INTO menu
-      VALUES (4, 'RMIT');
-      INSERT INTO menu
-      VALUES (5, 'BTEC');
+      INSERT INTO Menu 
+      VALUES (1, 'BTEC');
+      INSERT INTO Menu
+      VALUES (2, 'TĐT');
+      INSERT INTO Menu
+      VALUES (3, 'SGU');
+      INSERT INTO Menu
+      VALUES (4, 'NTT');
+      INSERT INTO Menu
+      VALUES (5, 'UEH');
 EOF;
 
    $ret = pg_query($db, $sql);
@@ -107,5 +122,24 @@ EOF;
    pg_close($db);
     
     ?>
+  /*
+    <?php
+        $sql =<<<EOF
+        SELECT * from Menu;
+  EOF;
+  
+        $ret = pg_query($db, $sql);
+        if(!$ret) {
+            echo pg_last_error($db);
+        exit;
+        } 
+        while($row = pg_fetch_row($ret)) {
+            echo "ID = ". $row[0] . "\n";
+            echo "NAME = ". $row[1] ."\n";
+        }
+        echo "Operation done successfully\n";
+        pg_close($db);
+    ?>
+*/
 </body>
 </html>
