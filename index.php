@@ -86,15 +86,15 @@
 <?php
     
       $sql =<<<EOF
-      INSERT INTO Menu
+      INSERT INTO menu
       VALUES (1, 'BACH KHOA');
-      INSERT INTO Menu
+      INSERT INTO menu
       VALUES (2, 'SU PHAM KT');
-      INSERT INTO Menu
+      INSERT INTO menu
       VALUES (3, 'FPT');
-      INSERT INTO Menu
+      INSERT INTO menu
       VALUES (4, 'RMIT');
-      INSERT INTO Menu
+      INSERT INTO menu
       VALUES (5, 'BTEC');
 EOF;
 
